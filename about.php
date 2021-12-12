@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="topnav">
-  <a class="active" href="home.php">Home</a>
+  <a class="active" href="index.php">Home</a>
   <a class="active" href="about.php">About</a>
 </div>
 

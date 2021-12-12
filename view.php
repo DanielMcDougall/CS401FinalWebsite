@@ -34,7 +34,7 @@
             <p><?php echo $q['content'];?></p>
         <?php } ?>    
 
-        <a href="home.php" class="button">Go Home</a>
+        <a href="index.php" class="button">Go Home</a>
    </div>
 </body>
 </html>

@@ -18,7 +18,7 @@
         
         mysqli_query($dbInit, $mydb);
         echo $mydb;
-        header("Location: home.php?info=added");
+        header("Location: index.php?info=added");
         exit();
     }
 
@@ -34,7 +34,7 @@
         $id = $_REQUEST['id'];
         $mydb = "DELETE FROM blogs WHERE id = $id";
         mysqli_query($dbInit, $mydb);
-        header("Location: home.php");
+        header("Location: index.php");
         exit();
     }
 
@@ -45,7 +45,7 @@
         $content = $_REQUEST['content'];
         $mydb = "UPDATE blogs SET title = '$title', content = '$content' WHERE id = $id";
         mysqli_query($dbInit, $mydb);
-        header("Location: home.php");
+        header("Location: index.php");
         exit();
     }
 
